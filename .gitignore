@@ -15,7 +15,7 @@ build/
 
 # IDE and editor files
 .idea/
-.vscode/
+.vscode/*
 *.swp
 *.swo
 
@@ -30,3 +30,6 @@ Thumbs.db
 
 # Misc
 nico*
+
+# track vscode debug config
+!.vscode/launch.json
